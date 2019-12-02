@@ -15,7 +15,7 @@ body{
 header{
     color:rgb(167, 125, 80);
     display: flex;
-    background: rgba(35, 220, 118, 0.755);
+    background: black;
     justify-content: space-between;
 }
 
@@ -40,7 +40,7 @@ nav{
     margin-right: 3em;
 }
 
-main{
+main .main-content{
     display: flex;
 }
 main section{
@@ -52,18 +52,40 @@ main section{
     border-radius: 5px;
     padding: 1em;
 }
-img{
-    width: 40px;
-    height: 40px;
-    
+.header-logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 20px;
 }
 
 .logo h1{
     font-size: 30px;
     margin-left: 5px;
+    position: relative;
+    top: 5px;
+    margin: 0 0.5em 0 1em;
 }
 .logo{
-    margin-left: 2em;
     display: flex;
     padding: 0.5em;
 }
+.header-info{
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+}
+.phone{
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    left:50px;
+}
+
+.main-image{
+    background-image: url("/images/Deon_BMW-Z4-and-M850i_21-MAIN-option-2-1600x898.jpg");
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+}
+

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Deep Forest
+title: Cars Network
 email: justteshi@gmail.com
 description: Awsome Discription <3
 destination: docs
