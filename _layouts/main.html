@@ -4,58 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>{{ site.title }}</title>
 </head>
 <body>
-    <header class="site-header">
-        <div class="logo">
-            <img src="/images/car-logo-png-2300.png" class="header-logo">
-            <h1>{{ site.title }}</h1>
-            <div class="header-info">
-                <p>SEARCH MILLIONS</p>
-                <p>FIND YOURS</p>
-                <p>Welcome to Carsforsale.com®</p>
+    <div class="site">
+        <header class="site-header">
+            <!-- Navigation -->
+            <div class="site-main-navigation">
+                <div class="site-title">
+                    <a href="#">Thrift Shop</a>
+                </div>
+                <nav class="main-navigation">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                
             </div>
-            <p class="phone"><i class="fas fa-phone"></i> +359 894 245 024</p>
-            
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">New Cars</a></li>
-                <li><a href="#">Used Cars</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="site-main">
-        <div class="main-image">
-            <h1>Safe the planet</h1>
-            <button>Plant a tree</button>
-        </div>
-        <div class="icons-bar">
-            
-        </div>
-        <div class="main-content">
-            <section class="content-left">
-                <h2>First Content Heading</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, odit exercitationem. Magnam voluptate incidunt aspernatur animi itaque. Ducimus itaque repudiandae molestiae, doloribus voluptatum, nobis sapiente eveniet, iste excepturi dignissimos ea?</p>
-            </section>
-            <section class="content-right">
-                <h2>Second Content Heading</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, ab voluptates officiis eius minima omnis consequatur ullam aspernatur et voluptatibus, eligendi distinctio expedita beatae accusamus itaque! Provident unde dicta eveniet!</p>
-            </section>
-        </div>
-        
-    </main>
-    <footer class="site-footer">
-        <p>All right reserved &copy</p>
+        </header>
+            <!-- Main-Content -->
+            <main class="site-main-content">
+                <div class="site-main-slogan">
+                    <div class="slogan-text">
+                        <h1>Unique Thrift Store with generic products</h1>
+                        <p>Bargains, Deals and Steals</p>
+                        <h5><a href="#">See More</a></h5>
+                    </div>
+                </div>
 
-    </footer>
+                <section class="about-secondhand-clothes">
+                    <div class="about-secondhand-heading">
+                        <h1>Second-Hand Clothes</h1>
+                    </div>
+                    <p>Up until recently, the phrase “second-hand store” sounded almost like an insult in Bulgaria. To walk into a shop like that was a dirty little secret, shared in hushed voices and dimmed lights. However, the second-hand boutique trend is now more popular than ever. So much so that when you see a truly spectacular street style star, they almost certainly wearing a pre-loved item to complete their outfit. It’s time to accept the facts – second-hand is not a dirty word. In fact, it is the key to dressing well and being eco-friendly simultaneously.  </p>
+                    <!-- <a href="#" class="about-button">More about us</a> -->
+                </section>
+
+                <section class="customers-review">
+                    <div class="customers-review-heading">
+                        <h1>Customer's Review</h1>
+                    </div>
+                    <div class="reviews">
+                        <article>
+                            <div class="person-image">
+                                <img src="/images/person2.png">
+                            </div>
+                            <p>"Everything with the order and shipping was good."</p>
+                        </article>
+                        <article>
+                            <div class="person-image">
+                                <img src="/images/person1.png">
+                            </div>
+                            <p>"Everything with the order and shipping was good."</p>
+                        </article>
+                        <article>
+                            <div class="person-image">
+                                <img src="/images/person3.png">
+                            </div>
+                            <p>"Everything with the order and shipping was good."</p>
+                        </article>
+                    </div>
+                </section>
+                
+                <section class="service">
+                    <div class="service-heading">
+                        <h1>We Offer</h1>
+                    </div>
+                    <div class="services">
+                        <div class="item">
+                            <img src="/images/tshirt.png">
+                            <p>Shop for original brand clothes online</p>
+                        </div>
+                        <div class="item">
+                            <img src="/images/customer-service.png">
+                            <p>Our team is ready for all of your questions</p>
+                        </div>
+                        <div class="item">
+                            <img src="/images/delivery.png">
+                            <p>Our team is ready for all of your questions</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="newsletter">
+                    <div class="newsletter-heading">
+                        <h2>Sing-up to our newsletter</h2>
+                    </div>
+                    <div class="newsletter-form">
+                        <input type="text" placeholder="Enter your email here...">
+                        <p class="form-button">Send</p>
+                    </div>
+                </section>
+            </main>
+
+        <footer class="site-footer">
+            <div class="upper-footer">
+                <section></section>
+                <section></section>
+                <section></section>
+            </div>
+            <div class="last-footer">
+                <p>All rights reserved | © 2019 Thrift Shop</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

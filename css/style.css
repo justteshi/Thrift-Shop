@@ -1,91 +1,227 @@
 html{
-    font-family: PT Sans,sans-serif;
+    font-family: 'Acme', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    box-sizing: border-box;
 }
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body{
-   
-}
-
-header{
-    color:rgb(167, 125, 80);
-    display: flex;
-    background: black;
-    justify-content: space-between;
-}
-
-nav ul {
-    display: flex;
-}
-nav ul li{
-
-    list-style: none;
-    margin: 0.5em;
-    padding: 3px;
-
-}
-nav ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    font-style: bold;
-    color: rgba(167, 107, 41);
-}
-nav{
-    margin-top: 1em;
-    margin-right: 3em;
-}
-
-main .main-content{
-    display: flex;
-}
-main section{
-    display: block;
-    margin: 2em;
-    text-align: center;
-    border: 1px solid gray;
-    background: rgba(203, 208, 214, 0.755);
-    border-radius: 5px;
-    padding: 1em;
-}
-.header-logo{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    left: 20px;
-}
-
-.logo h1{
-    font-size: 30px;
-    margin-left: 5px;
-    position: relative;
-    top: 5px;
-    margin: 0 0.5em 0 1em;
-}
-.logo{
-    display: flex;
+/* Navigation */
+.site-title{
     padding: 0.5em;
+    margin-left: 3em;
 }
-.header-info{
-    font-size: 10px;
-    position: relative;
-    top: 5px;
+.site-title a{
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    font-size:  30px;
+    color: salmon;
 }
-.phone{
-    position: relative;
-    top: 30px;
-    font-weight: bold;
-    left:50px;
-}
-
-.main-image{
-    background-image: url("/images/Deon_BMW-Z4-and-M850i_21-MAIN-option-2-1600x898.jpg");
-    height: 60%;
+.site-main-navigation{
+    display: flex;
+    background: rgb(43, 122, 185);
+    position: sticky;
+    justify-content: space-between;
+    border-bottom: 2px solid salmon;
+    position: fixed;
     width: 100%;
-    background-size: cover;
+}
+.main-navigation ul{
+    display: flex;
+    padding: 1em;
+    margin: auto;
+}
+.main-navigation ul li{
+    list-style: none;
+    padding: 0.5em;
+    border-right: 1px solid salmon;
+    border-left: 1px solid salmon;
+    border-radius: 5px;
+    margin: 0 0.5em 0 0.5em;
+}
+.main-navigation ul li a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: white;
+}
+.main-navigation ul li:hover{
+
+    border-top: 1px solid salmon;
+    border-bottom: 1px solid salmon;
 }
 
+/* Slogan */
+.site-main-slogan{
+    background: url(/images/Screenshot_1.png);
+    background-size: cover;
+    width: 100%;
+    height: 30em;
+    margin:0 auto;
+    border-bottom: 2px solid salmon;
+}
+.slogan-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    
+}
+.slogan-text h1{
+    color: salmon;
+    font-size: 50px;
+    background: rgb(43, 122, 185, 0.5);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 2px solid salmon;
+    border-bottom: none;
+    padding: 10px;
+}
+.slogan-text p{
+    padding: 0.5em;
+    background: rgb(43, 122, 185, 0.5);
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid salmon;
+    border-top: none;
+    
+}
+
+/* TO DO "See More" button */
+
+.slogan-text h5{
+    padding: 0.5em;
+    width: 100px;
+    background: rgb(43, 122, 185);
+    margin: 0 auto;
+    margin-top: 2em;
+    border-radius: 15px;
+    font-size: 15px;
+    
+    
+}
+.slogan-text h5 a{
+   
+    text-decoration: none;
+    color: white;
+}
+main{
+    background: lightcyan;
+}
+
+/* About */
+
+.about-secondhand-clothes{
+    margin: 0 auto;
+    width: 75%;
+}
+.about-secondhand-heading{
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    font-size: 30px;
+    color: salmon;
+    border-bottom: 10px dashed rgb(43, 122, 185);
+}
+.about-secondhand-clothes p{
+    color: rgb(43, 122, 185);
+    padding: 1em;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.about-button{
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(43, 122, 185);
+    color: white ;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Customer Reviews */
+
+.customers-review{
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 4em;
+}
+.customers-review-heading{
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    font-size: 25px;
+    color: salmon;
+    border-bottom: 7px double rgb(43, 122, 185);
+}
+
+.reviews{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+article{
+    display: block;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+article:hover{
+    transform: translate(0,-2em);
+    background: white;
+}
+article p{
+    font-style: italic;
+}
+.person-image{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+.person-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Services */
+.service{
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 4em;
+}
+.services{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+.service-heading{
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    font-size: 25px;
+    color: salmon;
+    border-bottom: 7px dotted rgb(43, 122, 185);
+    width: 50%;
+    margin: 0 auto;
+}
+.item{
+    width: 30%;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+.item img{
+    
+    width: 100px;
+    height: 100px;
+}
