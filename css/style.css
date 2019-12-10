@@ -30,6 +30,7 @@ html{
     border-bottom: 2px solid salmon;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .main-navigation ul{
     display: flex;
