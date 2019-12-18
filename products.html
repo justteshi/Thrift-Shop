@@ -4,9 +4,73 @@ title: Products
 permalink: /products/
 ---
 <style>
-    h1{
-        padding-top:  2em;
+    .products-container { 
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 20px;
+      align-items: center;
+      
+      width: 70% ;
+      margin: 0 auto;
+      text-align: center;
+      }
+    .item-wrapper img {
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+      max-width: 100%;
     }
-    </style>
-
-<h1>Products page is here</h1>
+    h1{
+        text-align: center;
+        margin: 0 auto;
+        color: salmon;
+        text-shadow: 2px 2px black;
+        font-size: 30px;
+        border-bottom: 2px dotted salmon;
+        margin-bottom: 1em;
+        width: 30%;
+        padding-top: 4em;
+    }
+</style>
+<h1>Products we offer at the moment</h1>
+<div class="products-container">
+    <div class="item-wrapper">
+        <img src="/images/product 1.png" alt="">
+        <p>Nike T-shirt</p>
+        <p>75 $</p>
+    </div>
+    <div class="item-wrapper">
+        <img src="/images/product 2.png" alt="">
+        <p>Nike T-shirt</p>
+        <p>75 $</p>
+    </div>
+    <div class="item-wrapper">
+        <img src="/images/product 3.png" alt="">
+        <p>The North Face Winter Jacket</p>
+        <p>250 $</p>
+    </div>
+    <div class="item-wrapper">
+        <img src="/images/product 4.png" alt="">
+        <p>Nike Air Jordan Off-white</p>
+        <p>50 $</p>
+    </div>
+    <div class="item-wrapper">
+        <img src="/images/product 5.png" alt="">
+        <p>Adidas T-shirt</p>
+        <p>250 $</p>
+    </div>
+    <div class="item-wrapper">
+        <img src="/images/product 6.png" alt="">
+        <p>Supreme Hoodie</p>
+        <p>1000 $</p>
+    </div>
+    <div class="item-wrapper">
+        <img src="/images/product 7.png" alt="">
+        <p>Bape Pants</p>
+        <p>250 $</p>
+    </div>
+    <div class="item-wrapper">
+        <img src="/images/product 8.png" alt="">
+        <p>Polo T-shirt</p>
+        <p> 10 $</p>
+    </div>
+</div>
