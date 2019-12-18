@@ -48,11 +48,76 @@
             <!-- Main-Content -->
             <main class="site-main-content">
                 <style>
-h1{
-    padding-top:  2em;
+.contacts-container{
+    padding-top: 5em;
+    text-align: center;
+    font-size:20px;
+}
+.contacts-container h1,h2{
+    color: salmon;
+    text-shadow: 2px 2px black;
+}
+.info{
+    padding-bottom: 2em;
+    
+}
+.contacts-container h2{
+    background: rgb(102, 170, 226, 0.7);
+}
+.contacts-input{
+    padding-top: 1em;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(102, 170, 226, 0.7);
+    padding-bottom: 1em;
+}
+form{
+    display: block;
+    width: 33%;
+}
+input{
+    margin: 5px;
+    text-align: center ;
+    padding: 10px;
+    font: inherit;
+    width: 36%;
+    border-radius: 10px;
+    border: 1px solid salmon;
+}
+
+iframe{
+    border-radius: 5px;
+}
+#message-field{
+    height: 100px;
+    width: 80%;
+}
+#subject-field{
+    width: 80%;
 }
 </style>
-<h1>Contacts page is here</h1>
+
+<div class="contacts-container">
+    <div class="info">
+        <h1>Contacts</h1>
+        <p>Adress: ul.Vitoshka 37 , Sofia 1000 , Bulgaria</p>
+        <p>Email: thriftshop@mail.bg</p>
+        <p>Phone: +359 898 526 347</p>
+    </div>
+    <h2>Send a message</h2>        
+    <div class="contacts-input">
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" id="subject-field" placeholder="Subject">
+            <input type="text" id="message-field" placeholder="Message">
+        </form>
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.44161855465!2d23.319620841383678!3d42.694369022170314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa856c5108a471%3A0xfaebdbb7c450d50d!2sPorchetta%20Sofia!5e0!3m2!1sbg!2sbg!4v1576668373162!5m2!1sbg!2sbg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+</div>
             </main>
 
         <footer class="site-footer">
