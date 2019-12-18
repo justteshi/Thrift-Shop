@@ -17,39 +17,24 @@
             <!-- Navigation -->
             <div class="site-main-navigation">
                 <div class="site-title">
-                    <a href="{{ site.baseur }}/">Thrift Shop</a>
+                    <a href="/">Thrift Shop</a>
                 </div>
                 <nav class="main-navigation">
                     <ul>
-                    {% for page in site.pages %}
-                    {% if page.title %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-                    {% endif %}
-                    {% endfor %}       
+                        {% for page in site.pages %}
+                        {% if page.title %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        {% endif %}
+                        {% endfor %}
                     </ul>
                 </nav>
-
-                        <!-- <li>
-                            <a href="{{ site.baseur }}/">Home</a>
-                        </li>
-                        <li>
-                            <a href="{{ site.baseur }}/about">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#products">Products</a>
-                        </li>
-                        <li>
-                            <a href="#feedback">Feedback</a>
-                        </li>
-                        <li>
-                            <a href="#contacts">Contacts</a>
-                        </li> -->
                 
             </div>
         </header>
             <!-- Main-Content -->
             <main class="site-main-content">
-               {{ content }}
+                {{ content }}
+                
             </main>
 
         <footer class="site-footer">
