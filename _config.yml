@@ -22,13 +22,13 @@ title: Thrift Shop
 email: justteshi@gmail.com
 description: Awsome Discription <3
 destination: docs
-baseurl: "/Thrift-Shop" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: justteshi
+github_username:  justteshi
 
 # Build settings
-
+markdown: kramdown
 plugins:
   - jekyll-feed
 
