@@ -10,7 +10,7 @@ permalink: /contacts/
     text-align: center;
     font-size:20px;
 }
-.contacts-container h1,h2{
+.contacts-container h1,.contacts-container h2{
     color: salmon;
     text-shadow: 2px 2px black;
 }
@@ -52,6 +52,21 @@ iframe{
 }
 #subject-field{
     width: 80%;
+}
+
+@media (max-width:750px){
+    .contacts-input{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .contacts-input form{
+        margin: 0 auto;
+    }
+    iframe{
+        width: 60%;
+        height: 60%;
+    }
 }
 </style>
 
